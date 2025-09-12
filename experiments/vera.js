@@ -2,11 +2,11 @@ function setup() {
   createCanvas(1000, 1000);
 }
 
-const size = 50;
-const layers = random(5, 15);
+const size = 60;
+const layers = random(1, 20);
 const colour1 = random(100, 255);
 const colour2 = random(100, 255);
-const colou3 = random(100, 255);
+const colour3 = random(100, 255);
 
 function getRandomValue(pos, variance) {
   return pos + map(Math.random(), 0, 1, -variance, variance);

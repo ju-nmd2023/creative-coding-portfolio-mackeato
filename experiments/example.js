@@ -32,6 +32,4 @@ function draw() {
   pop();
 
   pop();
-
-  noLoop();
 }

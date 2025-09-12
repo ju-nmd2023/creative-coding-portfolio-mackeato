@@ -3,11 +3,15 @@
     "file": "experiments/example.js",
     "name": "Name of your experiment",
     "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
-  }
-
-    {
+  },
+  {
     "file": "experiments/artwork_remake.js",
     "name": "Cloud Generator",
     "description": "I want to use random cloud shape generation using several custom lump shapes to achieve a pretty and unique cloud shape on a blue sky."
+  },
+  {
+    "file": "experiments/vera_molnar_v1.js",
+    "name": "Structure de Quadrilatères - Vera Molnar V1",
+    "description": "Ive copied Vera Molnars artwork which contains a grid of figures made up of differing amounts of squares in either orange or charcoal colour. The Squares get denser in the middle columns."
   }
 ]

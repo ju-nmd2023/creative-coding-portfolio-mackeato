@@ -5,8 +5,8 @@ function setup() {
 function draw() {
   background(255);
 
-  const originalY = 300;
-  const divider = 60;
+  const originalY = 200;
+  const divider = 100;
   noiseSeed(0);
 
   beginShape();

@@ -4,7 +4,7 @@ function setup() {
   noLoop();
 }
 
-let lumps = 15;
+let lumps = 20;
 let detailMargin = 0.05;
 
 function lumpShape(x, y, r) {
@@ -16,7 +16,7 @@ function lumpShape(x, y, r) {
   fill(200, 200, 200);
   ellipse(x - r * detailMargin, y + r * detailMargin, r);
 
-  fill(255);
+  fill(200);
   ellipse(x, y, r);
   pop();
 }
