@@ -1,12 +1,12 @@
-let cols = 9;
-let rows = 6;
-let margin = 80;
+let cols = 15;
+let rows = 5;
+let margin = 100;
 
 function setup() {
   createCanvas(900, 700);
-  background(248, 246, 242);
+  background(0, 0, 0);
   noFill();
-  strokeWeight(0.8);
+  strokeWeight(0.1);
   rectMode(CENTER);
 
   cellSize = (width - margin * 2) / cols;
@@ -29,9 +29,9 @@ function draw() {
       const orange = 0.5;
       for (let i = 0; i < reps; i++) {
         if (random() < orange) {
-          stroke(215, 120, 45, 180);
+          stroke(150, 150, 255);
         } else {
-          stroke(40, 40, 50, 180);
+          stroke(255, 150, 150);
         }
 
         push();
