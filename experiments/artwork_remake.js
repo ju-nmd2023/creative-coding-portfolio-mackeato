@@ -16,7 +16,7 @@ function lumpShape(x, y, r) {
   fill(200, 200, 200);
   ellipse(x - r * detailMargin, y + r * detailMargin, r);
 
-  fill(200);
+  fill(250);
   ellipse(x, y, r);
   pop();
 }

@@ -13,5 +13,10 @@
     "file": "experiments/vera_molnar_v1.js",
     "name": "Structure de Quadrilatères - Vera Molnar V1",
     "description": "Ive copied Vera Molnars artwork which contains a grid of figures made up of differing amounts of squares in either orange or charcoal colour. The Squares get denser in the middle columns."
+  },
+  {
+    "file": "experiments/vera_molnar_v2.js",
+    "name": "Structure de Quadrilatères - Vera Molnar V2",
+    "description": "Ive added some adjustments to the generated artwork. Giving it a different vibe"
   }
 ]
