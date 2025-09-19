@@ -18,5 +18,15 @@
     "file": "experiments/vera_molnar_v2.js",
     "name": "Structure de Quadrilatères - Vera Molnar V2",
     "description": "Ive added some adjustments to the generated artwork. Giving it a different vibe"
+  },
+  {
+    "file": "experiments/herbert_w_franke.js",
+    "name": "Remake of Herbert W Franke - V1",
+    "description": "I used the kaleidoscope example code as a base to copy a live generated version of an artwork"
+  },
+  {
+    "file": "experiments/herbert_w_franke_2.js",
+    "name": "Remake of Herbert W Franke - V2",
+    "description": "Made some adjustments to generate a dierent type of shape."
   }
 ]

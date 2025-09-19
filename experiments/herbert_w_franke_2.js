@@ -52,5 +52,4 @@ function draw() {
   if (t >= 1000) {
     noLoop();
   }
-  console.log("Time is", t);
 }
