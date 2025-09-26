@@ -1,10 +1,5 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
-  },
-  {
     "file": "experiments/artwork_remake.js",
     "name": "Cloud Generator",
     "description": "I want to use random cloud shape generation using several custom lump shapes to achieve a pretty and unique cloud shape on a blue sky."
@@ -28,5 +23,20 @@
     "file": "experiments/herbert_w_franke_2.js",
     "name": "Remake of Herbert W Franke - V2",
     "description": "Made some adjustments to generate a dierent type of shape."
+  },
+  {
+    "file": "experiments/perlin_noise.js",
+    "name": "Mountain Range with Perlin Noise",
+    "description": ""
+  },
+  {
+    "file": "experiments/flow_field.js",
+    "name": "Flow Field assignment",
+    "description": ""
+  },
+  {
+    "file": "tone/tone.js",
+    "name": "Random Noise Dots",
+    "description": "Uses the random position of dots to determine pitch and volume every 12 frames."
   }
 ]
