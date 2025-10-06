@@ -15,6 +15,11 @@
     "description": "Ive added some adjustments to the generated artwork. Giving it a different vibe"
   },
   {
+    "file": "experiments/vera_molnar_v3.js",
+    "name": "Structure de Quadrilatères - Vera Molnar V3",
+    "description": "Adjusted the generated shapes to be thicker rings, kinda resembling neon"
+  },
+  {
     "file": "experiments/herbert_w_franke.js",
     "name": "Remake of Herbert W Franke - V1",
     "description": "I used the kaleidoscope example code as a base to copy a live generated version of an artwork"
@@ -30,13 +35,23 @@
     "description": ""
   },
   {
+    "file": "experiments/perlin_noise_2.js",
+    "name": "Lightning Bolts with Perlin Noise",
+    "description": ""
+  },
+  {
+    "file": "experiments/perlin_noise_3.js",
+    "name": "80s Synthwave skyline in the sunset, with Perlin Noise",
+    "description": ""
+  },
+  {
     "file": "experiments/flow_field.js",
     "name": "Flow Field assignment",
     "description": ""
   },
   {
-    "file": "tone/tone.js",
+    "file": "experiments/tone/tone.js",
     "name": "Random Noise Dots",
-    "description": "Uses the random position of dots to determine pitch and volume every 12 frames."
+    "description": "Uses the random position of dots to determine pitch and volume every 12 frames. X-axis determines pitch while Y-axis determines volume."
   }
 ]

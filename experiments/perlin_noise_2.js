@@ -4,26 +4,44 @@ function setup() {
 }
 
 function draw() {
-  background(180, 210, 255);
+  background(18, 24, 38);
 
-  drawMountains(0.005, 200, color(80, 120, 80));
-  drawMountains(0.01, 250, color(60, 100, 60));
-  drawMountains(0.02, 300, color(40, 80, 40));
+  drawLightning(0.006, 140, color(120, 180, 255, 140));
+  drawLightning(0.01, 200, color(160, 140, 255, 140));
+  drawLightning(0.018, 260, color(255, 140, 200, 140));
 }
 
-function drawMountains(noiseScale, baseHeight, col) {
-  stroke(50);
-  fill(col);
+function drawLightning(noiseScale, baseY, col) {
+  stroke(col);
+  strokeWeight(3);
+  noFill();
+  let xoff = random(1000);
 
   beginShape();
-  let xoff = random(1000);
   for (let x = 0; x <= width; x++) {
-    let y = noise(xoff) * 100 + baseHeight;
+    let y = baseY + (noise(xoff) - 0.5) * map(noiseScale, 0.006, 0.02, 120, 50);
     vertex(x, y);
     xoff += noiseScale;
   }
+  endShape();
 
-  vertex(width, height);
-  vertex(0, height);
-  endShape(CLOSE);
+  stroke(red(col), green(col), blue(col), 70);
+  strokeWeight(1.5);
+  xoff = random(2000);
+  beginShape();
+  for (let x = 0; x <= width; x++) {
+    let y = baseY + 6 + (noise(xoff) - 0.5) * 40;
+    vertex(x, y);
+    xoff += noiseScale * 0.9;
+  }
+  endShape();
+
+  xoff = random(3000);
+  beginShape();
+  for (let x = 0; x <= width; x++) {
+    let y = baseY - 6 + (noise(xoff) - 0.5) * 40;
+    vertex(x, y);
+    xoff += noiseScale * 2;
+  }
+  endShape();
 }
