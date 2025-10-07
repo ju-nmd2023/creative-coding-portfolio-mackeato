@@ -32,22 +32,22 @@
   {
     "file": "experiments/perlin_noise.js",
     "name": "Mountain Range with Perlin Noise",
-    "description": ""
+    "description": "A grassy mountain landscape with three layers topped by Perlin Noise"
   },
   {
     "file": "experiments/perlin_noise_2.js",
     "name": "Lightning Bolts with Perlin Noise",
-    "description": ""
+    "description": "Three different coloured lightningbolts with three noise-lines each to give the lightning appeaaence"
   },
   {
     "file": "experiments/perlin_noise_3.js",
     "name": "80s Synthwave skyline in the sunset, with Perlin Noise",
-    "description": ""
+    "description": "An 80s style skyline, where the purple is to resemble the skyline, the blue is a stormy sea, and the yellow is the land it is being seen from."
   },
   {
     "file": "experiments/flow_field.js",
     "name": "Flow Field assignment",
-    "description": ""
+    "description": "A randomly generated field that resemble the pattern of weather, changing direction with time"
   },
   {
     "file": "experiments/tone/tone.js",
